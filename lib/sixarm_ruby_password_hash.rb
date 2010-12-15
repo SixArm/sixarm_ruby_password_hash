@@ -1,16 +1,15 @@
+# -*- encoding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem: Password Hash to do secure SHA256 passwords.
+= SixArm Ruby Gem » PasswordHash
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
 
-Password hash tool to create secure passwords,
+PasswordHash generates secure passwords using SHA256 hexdigest cryptography.
 
-This uses SHA256 hexdigest for the cryptographic hash,
-and authenticates a password, salt, and hash.
+This is useful to authenticate a user's password by using a hash and salt.
 
 To create a password:
   require 'sixarm_ruby_password_hash'
