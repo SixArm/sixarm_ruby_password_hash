@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: Password Hash to do secure SHA256 passwords.
+= SixArm.com » Ruby » PasswordHash class to generate secure SHA256 passwords
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2006-2010 Joel Parker Henderson
