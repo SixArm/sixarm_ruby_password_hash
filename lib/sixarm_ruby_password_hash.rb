@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » PasswordHash class to generate secure SHA256 passwords
