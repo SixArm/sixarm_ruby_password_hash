@@ -4,24 +4,32 @@ require 'simplecov'
 SimpleCov.start
 require 'sixarm_ruby_password_hash'
 
-class Testing < Test::Unit::TestCase
+describe PasswordHash do
 
- def test_new
-  p = PasswordHash.new('foo','bar')
-  assert_not_nil(p,"p")
-  assert(p.is_a?(String),"p is a string")
- end
+  before do
+    P ||= PasswordHash.new('foo','bar')
+  end
 
- def test_valid
-  p = PasswordHash.new('foo','bar')
-  assert(p.valid?('foo','bar'), "p.valid? foo bar")
- end
+  describe ".new" do
 
- def test_invalid
-  p = PasswordHash.new('foo','bar')
-  assert(!p.valid?('foo','xxx'), "p.valid? foo xxx")
-  assert(!p.valid?('xxx','bar'), "p.valid? xxx bar")
- end
+    it "=>  String" do
+      P.must_be_kind_of String
+    end
+
+  end
+
+  describe "#valid?" do
+
+    it "right args => true" do
+      assert(P.valid?('foo','bar'), "p.valid? foo bar")
+    end
+
+    it "wrong args => false" do
+      refute(P.valid?('foo','xxx'), "p.valid? foo xxx")
+      refute(P.valid?('xxx','bar'), "p.valid? xxx bar")
+    end
+
+  end
 
 end
 

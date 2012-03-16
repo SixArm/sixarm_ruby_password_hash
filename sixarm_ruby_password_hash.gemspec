@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_password_hash"
   s.summary           = "SixArm.com » Ruby » PasswordHash class for secure password hashing with plain text and random salt"
-  s.version           = "1.2.1"
+  s.version           = "1.3.0"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   SOURCES             = []
   TESTERS             = []
 
-  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
+  top_files           = [".gemtest", "Rakefile", "README.md", "VERSION"]
   lib_files           = ["lib/#{s.name}.rb"]
   test_files          = ["test/#{s.name}_test.rb"]
 
