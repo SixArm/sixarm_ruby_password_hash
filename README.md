@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> PasswordHash class to generate secure SHA256 passwords
 
-* Docs: <http://sixarm.com/sixarm_ruby_password_hash/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_password_hash/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_password_hash>
 * Repo: <http://github.com/sixarm/sixarm_ruby_password_hash>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
