@@ -3,7 +3,7 @@
 Please see README
 =end
 
-require 'digest/sha2'
+require "digest/sha2"
 
 class PasswordHash < String
 
