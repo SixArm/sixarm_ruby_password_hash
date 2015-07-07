@@ -72,8 +72,3 @@ To verify a password from a web form for a user:
 
     user = User.find(params[:id]) or raise "user not found"
     user.hash.valid?(params[:password],user.salt)
-
-
-## Changes
-
-* 2012-03-16 1.3.0 Upgrade for Ruby 1.9.3, minitest/spec, and improved docs.
