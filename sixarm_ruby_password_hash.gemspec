@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name           = "sixarm_ruby_password_hash"
-  s.summary        = "SixArm.com » Ruby » PasswordHash class"
+  s.summary        = "SixArm.com → Ruby → PasswordHash class"
   s.description    = "PasswordHash class for secure password hashing with plain text and random salt"
   s.version        = "1.3.1"
 
