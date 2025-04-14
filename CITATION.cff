@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: SixArm.com »Ruby » <br> PasswordHash class to generate secure SHA256 passwords
+message: >-
+  If you use this work and you want to cite it,
+  then you can use the metadata from this file.
+type: software
+authors:
+  - given-names: Joel Parker
+    family-names: Henderson
+    email: joel@joelparkerhenderson.com
+    affiliation: joelparkerhenderson.com
+    orcid: 'https://orcid.org/0009-0000-4681-282X'
+identifiers:
+  - type: url
+    value: 'https://github.com/SixArm/sixarm_ruby_password_hash/'
+    description: SixArm.com »Ruby » <br> PasswordHash class to generate secure SHA256 passwords
+repository-code: 'https://github.com/SixArm/sixarm_ruby_password_hash/'
+abstract: >-
+  SixArm.com »Ruby » <br> PasswordHash class to generate secure SHA256 passwords
+license: See license file
